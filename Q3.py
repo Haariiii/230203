@@ -3,7 +3,6 @@ def solution(store, customer):
     for i in range(len(customer)):
         if store.count(customer[i]):
             answer.append(str('yes'))
-            continue
         else:
             answer.append(str('no'))
     return answer
